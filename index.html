@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Karla:wght@400;800&family=Nunito:ital@0;1&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="hero">
+      <h1>Metric/Imperial Unit Conversion</h1>
+      <input type="text" id="inputEl" />
+      <button onclick="convertValue()">Convert</button>
+    </div>
+    <div class="result-container">
+      <div class="unit-container">
+        <h2>Length (Meter/Feet)</h2>
+        <p id="lengthEl">result</p>
+      </div>
+      <div class="unit-container">
+        <h2>Volume (Liters/Gallons)</h2>
+        <p id="volumeEl">result</p>
+      </div>
+      <div class="unit-containerlast">
+        <h2>Mass (Kilograms/Pounds)</h2>
+        <p id="massEl">result</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
